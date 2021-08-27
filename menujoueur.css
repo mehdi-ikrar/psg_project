@@ -1,0 +1,32 @@
+nav{
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    box-shadow: 4px 4px 4px black;
+    background-color:darkred;
+    color: blue;
+    text-align: left;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+}
+.menucontent{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.sub-menu{
+    list-style-type: none;
+    border: 1px solid white;
+    display: none;
+} 
+menu li:hover .sub-menu{
+    display: inline-block;
+    border: 1px solid;
+    
+}
+
+menu > ul > li{
+    float: left;
+
+}
