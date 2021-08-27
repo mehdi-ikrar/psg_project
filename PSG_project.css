@@ -40,7 +40,7 @@ main{
     flex-direction: row;
 }
 #img{
-    width: 30%;
+    width: 0%;
     height: 100%;
 }
 #img2{
