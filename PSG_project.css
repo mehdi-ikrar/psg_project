@@ -39,17 +39,13 @@ main{
     display:flex;
     flex-direction: row;
 }
-#img{
-    width: 130%;
-    height: 100%;
-}
-#img2{
-    width: 50%;
-    height: 100%;
-    
-}
+
+
+
 aside{
     background-color: white ;
+    width: 30%;
+    height: 22.5em;
 }
 
 footer{
